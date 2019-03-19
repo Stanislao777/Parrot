@@ -1,8 +1,3 @@
-export const PARROT_TYPES = {
-    EUROPEAN:       'EUROPEAN',
-    AFRICAN:        'AFRICAN',
-    NORWEGIAN_BLUE: 'NORWEGIAN_BLUE',
-};
 
 export class Parrot {
     constructor(type, numberOfCoconuts, voltage, isNailed) {
