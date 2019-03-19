@@ -39,7 +39,7 @@ export class African extends Parrot{
     }
 }
 
-class Norwegian_Blue extends Parrot{
+export class Norwegian_Blue extends Parrot{
     constructor(numberOfCoconuts, voltage, isNailed) {
         super("NORWEGIAN",numberOfCoconuts, voltage, isNailed);
     }
