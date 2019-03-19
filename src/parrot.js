@@ -45,10 +45,10 @@ export class Norwegian_Blue extends Parrot{
     }
 
     getSpeed() {
-        return (this.isNailed) ? 0 : this.getBaseSpeedWithVoltage(this.voltage);
+        return (this.isNailed) ? 0 : this.getBaseSpeedWithVoltage();
     }
-    getBaseSpeedWithVoltage(voltage) {
-        return Math.min(24, voltage * this.baseSpeed);
+    getBaseSpeedWithVoltage() {
+        return Math.min(24, this.voltage * this.baseSpeed);
     }
 }
 
