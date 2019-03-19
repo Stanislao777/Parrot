@@ -29,7 +29,7 @@ export class Parrot {
 
 }
 
-class African extends Parrot{
+export class African extends Parrot{
     constructor(numberOfCoconuts, voltage, isNailed) {
         super("AFRICAN",numberOfCoconuts, voltage, isNailed);
     }
